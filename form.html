@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section class="formulario">
+        <h1>BIENVENIDOS</h1>
+        <form>
+            <div>
+                <div class="options">
+                    <input type="checkbox" class="sistemas">
+                    <p>Analisis de Sistemas</p>
+                    <input type="checkbox" class="agraria">
+                    <p>Produccion Agraria</p>
+                </div>
+            </div>
+            <div class="campo">
+                <input type="text" name="nombre" placeholder="Nombres" id="nombre" required>
+            </div>
+            <div class="campo">
+                <input type="text" name="apellido" placeholder="Apellidos" id="apellido" required>
+            </div>
+            <div class="campo">
+                <input type="number" name="edad" placeholder="Edad" id="edad" min="1" max="99" required>
+            </div>
+            <div class="campo">
+                <input type="email" name="correo" placeholder="Ejemplo@gamil.com" id="correo" required>
+            </div>
+            <div class="campo">
+                <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña" required>
+            </div>
+            <div>
+                <a href="#">¿Olvido al contraseña?</a>
+            </div>
+            <div class="options">
+                <input type="checkbox" name="terminos" id="terminos">
+                <p for="terminos">Acepto la politica de privacidad de los terminos y condiciones</p>
+            </div>
+            <button type="submit">REGISTRARME</button>
+        </form>
+    </section>
+</body>
+</html>
