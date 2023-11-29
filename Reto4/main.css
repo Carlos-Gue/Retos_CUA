@@ -15,7 +15,6 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-/* Utility stylings */
 img{
     width: 100%;
     display: block;
@@ -44,7 +43,7 @@ img{
 }
 .sm-title{
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
 }
 .text-light{
@@ -55,7 +54,6 @@ img{
     margin: 0.4rem 0;
 }
 
-/* product section */
 .products{
     background: var(--alice-blue);
     padding: 3.2rem 0;
@@ -171,7 +169,6 @@ img{
     cursor: pointer;
 }
 
-/* product collection */
 .product-collection{
     padding: 3.2rem 0;
 }
@@ -225,13 +222,6 @@ img{
     background: var(--carribean-green);
 }
 
-
-
-
-
-
-
-/* Media Queries */
 @media screen and (min-width: 992px){
     .product-items{
         display: grid;
